@@ -1,6 +1,4 @@
 import streamlit as st
-st.markdown("""<meta name="google-adsense-account" content="ca-pub-1461221419808763">""")
-
 import pandas as pd
 import numpy as np
 import yaml
@@ -20,6 +18,8 @@ from PIL import Image, ImageColor
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Virtual Hair TryOn", layout="wide")
+st.markdown("""<meta name="google-adsense-account" content="ca-pub-1461221419808763">""", unsafe_allow_html=True)
+
 
 # Sidebar menu using st.radio
 st.sidebar.title("Menu")
