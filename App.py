@@ -1,4 +1,6 @@
 import streamlit as st
+st.markdown("""<meta name="google-adsense-account" content="ca-pub-1461221419808763">""")
+
 import pandas as pd
 import numpy as np
 import yaml
