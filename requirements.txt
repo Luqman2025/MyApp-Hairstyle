@@ -1,4 +1,4 @@
-pip~=23.2.1
+
 attrs~=25.1.0
 wheel~=0.41.2
 protobuf~=3.20.3
