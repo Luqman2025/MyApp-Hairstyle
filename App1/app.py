@@ -63,7 +63,7 @@ class app:
     def create_args(self):
         args = dict()
         # Image segmentation
-        args['seg_model_path'] = os.path.join("image_segmentation", "face_segment_checkpoints_256.pth.tar")
+        args['seg_model_path'] = os.path.join("image_segmentation", "face_segment_checkpoints_256.tar")
         args['image_size'] = (256,256) # output image size (height, width)
         args['input_image_size'] = (256,256) # input image size before segment (height, width)
         args['label_config'] = os.path.join("image_segmentation", "label.yml") # Path to the label.yml
